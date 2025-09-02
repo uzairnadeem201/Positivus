@@ -1,0 +1,12 @@
+.app{
+    width: 100vw;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+@media (max-width:768px){
+    .app{
+        padding: 20px 20px;
+    }
+   
+}
