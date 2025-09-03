@@ -4,36 +4,28 @@
     width: 100%;
 }
 
-.header-items{
+.header__items{
     display: flex;
     max-width: 811px;
     height: auto;
     gap:40px;
     justify-content: space-between;
 }
-.header-text{
+.header__text{
     font-size: 1rem;
     font-weight: 400;
     margin: 0px;
     padding: 20px 0px;
 
 }
-.requestQoute{
-    margin-top: 10px;
-    border: 1px solid black;
-    border-radius: 12px;
-    padding: 10px 35px;
-    box-sizing: border-box;
-    max-width: 231px;
-    max-height: 68px;
-}
-.Menu{
+
+.header__menu{
     display: none;
 }
 
 
 @media (max-width:1201px){
-    .header-items{
+    .header__items{
         gap:20px;
     }
     .requestQoute{
@@ -47,10 +39,10 @@
      }
 }
 @media(max-width:1021px){
-    .header-items{
+    .header__items{
         display: none;
     }
-    .Menu{
+    .header__menu{
         display: block;
     }
 }
