@@ -10,40 +10,40 @@ const Hero = () => {
   return (
     <>
       <div className="hero">
-        <div className="hero-text">
-          <h1 className="hero-h1">
+        <div className="hero__text">
+          <h1 className="hero__h1">
             Navigating The Digital Landscape for Success
           </h1>
-          <p className="hero-p">
+          <p className="hero__p">
             Our digital marketing agency helps businesses grow and succeed
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </p>
-          <button className="hero-btn">Book a Consultation</button>
+          <button className="btn">Book a Consultation</button>
         </div>
-        <div className="hero-img">
-          <img className="img-hero" src={heroimg} alt="heroimg"></img>
+        <div className="hero__img">
+          <img className="img__hero" src={heroimg} alt="heroimg"></img>
         </div>
       </div>
 
-      <div className="hero-mobile">
-        <div className="hero-text">
-          <h1 className="hero-h1">
+      <div className="hero__mobile">
+        <div className="hero__text">
+          <h1 className="hero__h1">
             Navigating The Digital Landscape for Success
           </h1>
-          <div className="hero-img">
-          <img className="img-hero" src={heroimg} alt="heroimg"></img>
+          <div className="hero__img">
+          <img className="img__hero" src={heroimg} alt="heroimg"></img>
         </div>
-          <p className="hero-p">
+          <p className="hero__p">
             Our digital marketing agency helps businesses grow and succeed
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </p>
-          <button className="hero-btn">Book a Consultation</button>
+          <button className="btn">Book a Consultation</button>
         </div>
       </div>
       
-      <div className="img-container">
+      <div className="image__container">
         <img className="img" src={amazon} alt="amazon"></img>
         <img className="img" src={dribble} alt="dribble"></img>
         <img className="img" src={hubspot} alt="hubspot"></img>

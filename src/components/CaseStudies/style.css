@@ -1,0 +1,49 @@
+.casestudies{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.casestudy__text{
+    display: flex;
+    width: 100%;
+    gap:20px;
+}
+
+.casestudy__h2{
+    background-color: #B9FF66;
+}
+
+.casestudy__p{
+    max-width: 580px;
+    padding-top:2px ;
+}
+.casestudy__container{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.898);
+    display: flex;
+    border-radius: 45px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.casestudy__items{ 
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border-right: 1px solid #B9FF66;
+    color: white;
+    padding: 20px;
+}
+.casestudy__img{
+    display: flex;
+    gap:10px;
+    color: #B9FF66;
+}
+.casestudy__items__content{
+    height: 70%;
+}
+.btn__img{
+    padding-top:8px ;
+}
