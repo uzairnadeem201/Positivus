@@ -83,7 +83,7 @@ const Services = () => {
       </div>
       <div className="service__banner">
         <div className="banner__text">
-          <h2>Let’s make things happen</h2>
+          <h2 className="banner__h2">Let’s make things happen</h2>
           <p>
             Contact us today to learn more about how our digital marketing
             services can help your business grow and succeed online.

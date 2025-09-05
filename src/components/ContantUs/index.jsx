@@ -4,7 +4,7 @@ const ContactUs= () => {
   
   return (
     <div className="contactus">
-      <div className="services__heading">
+      <div className="contact__heading">
         <h2 className="services__h2">Contact Us</h2>
         <p className="contactus__p">
           Connect with Us: Let's Discuss Your Digital Marketing Needs

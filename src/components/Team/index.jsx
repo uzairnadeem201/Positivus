@@ -60,7 +60,7 @@ const Team = () => {
   ];
   return (
     <div className="team">
-      <div className="services__heading">
+      <div className="team__heading">
         <h2 className="services__h2">Team</h2>
         <p className="services__p">
           Meet the skilled and experienced team behind our successful digital

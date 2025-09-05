@@ -1,19 +1,21 @@
 .team{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 8rem;
+}
+.team__heading{
+    display: flex;
+    gap:1rem;
 }
 .team__container{
-    margin-top: 30px;
+    margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap:50px;
+    gap: 3rem;
 }
 .team__item{
-    width: 400px;
-    height: 350px;
-    border-radius: 45px;
+    width: 30%;
+    border-radius: 3rem;
     border: 1px solid black;
     border-bottom: 3px solid black;
     padding: 20px;
@@ -21,39 +23,39 @@
 }
 
 .team__title{
-    height: 70%;
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .team__title--logo{
-    width: 50px;
-    height: 50px;
+    width: 12%;
+    height: 30%;
 }
 
 .item__title--img{
-    width: 150px;
-    height: 150px;
+    width: 40%;
+    height: 80%;
 }
 .team__content{
     border-top: 1px solid black;
-    height: 30%;
+    height: 50%;
     width: 100%;
+    padding-bottom: 20px;
 }
 .item__title-content{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 50px;
-    padding-top: 50px;
-    padding-left: 10px;
+    gap: .75rem;
+    margin-top: 3rem;
+    padding-left: 1rem;
 
 }
 .team__h3{
     margin: 0px;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 .team__p{
     margin: 0px;
-    font-size: 15px;
+    font-size: 1rem;
 }

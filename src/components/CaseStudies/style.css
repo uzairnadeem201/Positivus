@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 8rem;
 }
 
 .casestudy__text{
@@ -13,20 +13,24 @@
 
 .casestudy__h2{
     background-color: #B9FF66;
+    border-radius: .5rem;
+    font-weight: 500;
+    font-size: 2rem;
 }
 
 .casestudy__p{
-    max-width: 580px;
-    padding-top:2px ;
+    max-width: 40%;
+    padding-top:1% ;
 }
 .casestudy__container{
-    margin-top: 20px;
+    margin-top: 4rem;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.898);
     display: flex;
-    border-radius: 45px;
-    padding: 40px;
+    border-radius: 4rem;
+    padding: 3rem;
     box-sizing: border-box;
+    margin-top: 3rem;
 }
 .casestudy__items{ 
     display: flex;
@@ -34,7 +38,7 @@
     width: 33%;
     border-right: 1px solid #B9FF66;
     color: white;
-    padding: 20px;
+    padding: 1rem;
 }
 .casestudy__img{
     display: flex;
@@ -43,7 +47,4 @@
 }
 .casestudy__items__content{
     height: 70%;
-}
-.btn__img{
-    padding-top:8px ;
 }

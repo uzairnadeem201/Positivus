@@ -1,14 +1,19 @@
 .contactus__p{
-    padding: 10px;
+    padding-top: 1rem;
 }
 .contactus{
-    margin-top: 20px;
+    margin-top: 8rem;
+}
+.contact__heading{
+    display: flex;
+    gap:1rem;
 }
 .form{
     display: flex;
     width: 100%;
     background-color: #F3F3F3;
     border-radius: 45px;
+    margin-top: 4rem;
 }
 .form__content{
     width: 70%;
@@ -19,7 +24,7 @@
 
 }
   input[type="radio"] {
-        accent-color: #B9FF66
+        accent-color: #57a30c4b
     }
 
 .radiobtn{
@@ -46,4 +51,5 @@
 }
 .input-fields{
     width:100%;
+    font-family: 'Space Grotesk', sans-serif;
 }

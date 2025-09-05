@@ -1,13 +1,20 @@
 .workprocess__items__container{
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap: 3rem;
+}
+.workprocess{
+    margin-top: 8rem;
+}
+
+.workprocess__items__container{
+    margin-top: 3%;
 }
 .workprocess__items{
     width: 100%;
     background-color: #F3F3F3;
-    padding: 30px;
-    border-radius: 45px;
+    padding: 2rem;
+    border-radius: 3rem;
     box-sizing: border-box;
     border: 1px solid black;
     border-bottom: 3px solid black;
@@ -21,6 +28,10 @@
 .workprocess__item{
     display: flex;
     flex-direction: column;
+    outline: none;
+}
+.workprocess__item:focus{
+    outline: none;
 }
 .workprocess__item--color{
     background-color: #B9FF66;
@@ -60,16 +71,16 @@
     display: flex;
 }
 .workprocess__h1{
-    font-size: 50px;
+    font-size: 3.2rem;
 }
 .workprocess__p{
-    font-size:35px;
-    padding: 8px;
-    margin-left: 20px;
+    font-size:2.2rem;
+    padding: 0.5rem;
+    margin-left: 1.3rem;
 }
 .addbtn{
-    width: 50px;
-    height: 50px;
-    padding: 35px;
+    width: 4%;
+    height: 4%;
+    padding: 2.5rem;
 }
 

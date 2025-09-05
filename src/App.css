@@ -10,9 +10,9 @@
   border-radius: 12px;
   width: 264px;
   height: 68px;
-  padding: 25px 20px;
+  padding: 22px 20px;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Space Grotesk', sans-serif;
   cursor: pointer;
 }
@@ -24,6 +24,7 @@
     
     background-color: white;
     border: 1px solid black;
+    font-size: 17px;;
     border-radius: 12px;
     padding: 10px 35px;
     box-sizing: border-box;
@@ -39,6 +40,7 @@
     font-size:15px;
     padding-left: 20px;
     box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
 }
 .textarea{
     min-width: 50%;
@@ -46,6 +48,7 @@
     font-size:15px;
     padding: 20px;
     box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
 }
 @media (max-width:768px){
     .app{
