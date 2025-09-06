@@ -14,7 +14,7 @@
   gap: 1.75rem;
 }
 .hero__img {
- max-width:50%;
+  max-width: 50%;
 }
 .hero__h1 {
   font-size: 4.5rem;
@@ -24,70 +24,86 @@
 .image__container {
   margin-top: 3%;
   display: flex;
-  gap: 10px;
+  gap: 0.75rem;
   max-width: 100%;
   justify-content: space-between;
 }
 
-.img__hero{
-    width: 100%;
+.img__hero {
+  width: 100%;
 }
-.hero__mobile{
-    display: none;
+.hero__mobile {
+  display: none;
 }
 
 @media (max-width: 1201px) {
   .hero__h1 {
-    font-size: 40px;
+    font-size: 3rem;
     margin: 0px;
   }
-  .hero-btn {
-    color: white;
-    background-color: black;
-    border-radius: 12px;
-    width: 264px;
-    height: 68px;
-    padding: 25px 20px;
-    box-sizing: border-box;
-    font-size: 15px;
-  }
-  
 }
 @media (max-width: 1021px) {
-  .hero{
-    font-size: 15px;
+  .hero {
+    font-size: 1rem;
     height: fit-content;
   }
-  .hero__p{
+  .hero__p {
+    margin: 0px;
+  }
+  .hero__img {
+    display: flex;
+  }
+  .img {
+    width: 15%;
+  }
+  .hero__h1 {
+    font-size: 2rem;
+    margin: 0px;
+  }
+  .hero__img {
+    justify-content: end;
+  }
+  .img__hero {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__mobile {
+    display: block;
+  }
+  .hero {
+    display: none;
+  }
+  .img__hero {
+    max-width: 100%;
+  }
+  .hero__text {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+  }
+  .image__container {
+    flex-wrap: wrap;
+  }
+  .img {
+    width: 25%;
+  }
+}
+@media (max-width: 512px) {
+  .hero__mobile {
+    display: block;
+  }
+  .hero {
+    display: none;
+  }
+
+  .hero__h1 {
+    font-size: 1.75rem;
     margin: 0px;
   }
   .hero__img{
-    display: flex;
-    align-items: center;
+    height: 10rem;
   }
-  .img{
-    width:15%;
-  }
-
-}
-
-@media (max-width:768px){
-    .hero__mobile{
-        display: block;
-    }
-    .hero{
-        display: none;
-    }
-    .hero__text {
-        max-width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-    }
-    .image__container {
-        flex-wrap: wrap;
-    }
-    .img{
-        width: 25%;
-    }
 }

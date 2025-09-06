@@ -1,5 +1,6 @@
 .header{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
 }
@@ -14,7 +15,7 @@
 .header__text{
     font-size: 1rem;
     font-weight: 400;
-    margin: 0px;
+    margin: 0rem;
     padding: 2.5% 0px;
 
 }
@@ -24,13 +25,17 @@
 }
 
 
-@media (max-width:1201px){
+@media (max-width:1280px){
     .header__items{
-        gap:20px;
-    }
-    
+    max-width:70%;
+    display: flex;
+    height: auto;
+    gap:1.5rem;
+    justify-content: space-between;
 }
-@media(max-width:1021px){
+}
+
+@media(max-width:1024px){
     .header__items{
         display: none;
     }

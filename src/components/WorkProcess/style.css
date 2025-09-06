@@ -13,7 +13,7 @@
 .workprocess__items{
     width: 100%;
     background-color: #F3F3F3;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 3rem;
     box-sizing: border-box;
     border: 1px solid black;
@@ -39,7 +39,8 @@
 .workprocess__title{
     display: flex;
     flex-direction: row;
-    gap:30px;
+    align-items: center;
+    gap:1.75rem;
     justify-content: space-between;
 }
 .workprocess__ans{
@@ -50,15 +51,15 @@
 
 @keyframes slideDown{
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-1rem);
         opacity: 0;
       }
       25% {
-        transform: translateY(-10px);
+        transform: translateY(-.5rem);
         opacity: 0.2;
       }
       75% {
-        transform: translateY(5px);
+        transform: translateY(.25rem);
         opacity: 0.5;
       }
       100% {
@@ -81,6 +82,58 @@
 .addbtn{
     width: 4%;
     height: 4%;
-    padding: 2.5rem;
+
+}
+
+@media (max-width:1024px){
+    .workprocess__title{
+        width: 100%;
+        display: flex;
+        align-items: center ;
+    }
+    .workprocess__text{
+        width: 80%;
+        gap: 2rem;
+        align-items: center;
+    }
+    .workprocess__h1{
+        font-size: 3rem;
+        margin: 0;
+    }
+    .workprocess__p{
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    .addbtn{
+        width: 3rem;
+        padding: 0;
+
+    }
+}
+
+@media (max-width:512px){
+    .workprocess__title{
+        width: 100%;
+        display: flex;
+        align-items: center ;
+    }
+    .workprocess__text{
+        width: 80%;
+        gap: 2rem;
+        align-items: center;
+    }
+    .workprocess__h1{
+        font-size: 1rem;
+        margin: 0;
+    }
+    .workprocess__p{
+        font-size: 1rem;
+        margin: 0;
+    }
+    .addbtn{
+        width: 2rem;
+        padding: 0;
+
+    }
 }
 

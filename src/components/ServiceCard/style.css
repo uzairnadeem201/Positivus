@@ -7,7 +7,7 @@
     border-radius: 4rem;
     justify-content: space-between;
     border: 1px solid;
-    border-bottom: 5px solid;
+    border-bottom: .25rem solid;
     box-sizing: border-box;
 }
 
@@ -32,6 +32,7 @@
 .card__text-btn{
     display: flex;
     gap:.75rem;
+    align-items: center;
 }
 .btn__img{
     width: 10%;
@@ -44,11 +45,34 @@
     width: fit-content;
     background-color: #F3F3F3;
     margin: 0px;
-    border-radius: 10px;
+    border-radius: .8rem;
 }
 
+@media(max-width:1317px){
+    .card{
+    width: 47%;
+}
 
-@media (max-width:768px){
+.card__img{
+    width: 50%;
+}
+
+.card__text{
+    width: 50%;
+}
+.btn__img{
+    width: 20%;
+    height: 80%;
+}
+.card__text-h3{
+    font-size:1.5rem;
+}
+.card__p{
+    font-size: 1.2rem;
+}
+}
+
+@media (max-width:1024px){
     .card{
     width: 100%;
     box-sizing: border-box;
@@ -56,12 +80,12 @@
 
 .card__img{
     width: 50%;
-    padding: 10px;
+    padding: .75rem;
     box-sizing: border-box;
 }
 .car__img{
     width: 100%;
-    padding-top:20px;
+    padding-top:1.2rem;
 }
 
 .card__text{
@@ -69,13 +93,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding:20px;
+    padding:1.2rem;
     box-sizing: border-box;
 }
 .card__text-btn{
     display: flex;
-    gap:10px;
-    padding-bottom: 10px;
+    gap:.75rem;
+    padding-bottom: .25rem;
 }
 .card__text-h3{
     width: 100%;
@@ -86,73 +110,83 @@
     border-radius: 10px;
 }
 .btn__img{
-    width: 40px;
-    height: 40px;
-    padding-top:15px;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding-top:1rem;
 }
 .card__p{
-    padding-top:10px;
+    padding-top:.75rem;
 }
 }
 
-@media (max-width:512px){
-
+@media (max-width:560px){
 .card{
-    height: 250px;
-    padding: 0px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem 1rem;
 }
 
+.card__img{
+    width: 50%;
+    padding: .75rem;
+    box-sizing: border-box;
+}
+.car__img{
+    width: 100%;
+    padding-top:1.2rem;
+}
+
+.card__text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:.75rem;
+    box-sizing: border-box;
+}
+.card__text-btn{
+    display: flex;
+    gap:.75rem;
+    padding-bottom: .25rem;
+}
 .card__text-h3{
     width: 100%;
     font-size:1.5rem;
 }
 .btn__img{
-    width: 40px;
-    height: 40px;
-    padding-top:25px;
-}
-
-.card__text{
-    width: 30%;
-  
-}
-
-.card__img{
-    width: 50%;
-    box-sizing: border-box;
-}
-.car__img{
-    width: 100%;
-    padding-top:25%;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding-top:1rem;
 }
 .card__p{
-    font-size:12px;
-    display: none;
+    padding-top:.75rem;
 }
 }
+
+
 
 @media (max-width:380px){
 
 .card{
-    height: 250px;
+    height: 10rem;
     padding: 0px 10px;
 }
 
 .card__text-h3{
     width: 100%;
-    font-size:1rem;
+    font-size:.75rem;
     width: fit-content;
     background-color: #F3F3F3;
     margin: 0px;
-    border-radius: 10px;
+    border-radius: .75rem;
 }
 .btn__img{
-    width: 25px;
-    height: 25px;
+    width: 2rem;
+    height: 2rem;
     padding-top:25px;
 }
 .card__p{
-    padding-top:10px;
+    padding-top:.75rem;
 }
 
 .card__text{
@@ -166,10 +200,9 @@
 }
 .car__img{
     width: 100%;
-    padding-top: 40%;
+    padding-top: 2%;
 }
 .card__p{
-    font-size:12px;
     display: none;
 }
 }

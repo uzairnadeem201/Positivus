@@ -1,7 +1,6 @@
 import "./style.css";
 import contactus from "../../assets/contactus.png";
-const ContactUs= () => {
-  
+const ContactUs = () => {
   return (
     <div className="contactus">
       <div className="contact__heading">
@@ -12,29 +11,48 @@ const ContactUs= () => {
       </div>
       <div className="form">
         <div className="form__content">
-            <div className='radiobtn'>
-                <input type="radio" id="html" name="fav_language" value="HTML" style={{width:'20px'}}/> 
-                <label for="html">Say Hi!</label><br></br>
-                <input type="radio" id="html" name="fav_language" value="HTML" style={{width:'20px'}}/> 
-            <label for="html">Get a Qoute</label><br></br>
-            </div>            
-            <div className='input-fields'>
-                <p>Name</p>
-                <input className="input" placeholder="Name"></input>
-                <p>Email</p>
-                <input className="input" placeholder="Email"></input>
-                <p>Message</p>
-                <textarea className="textarea"></textarea>
-                
-            </div>
-            <button className="btn btn--size">Send Message</button>
-            
+          <div className="radiobtn">
+            <input
+              type="radio"
+              id="html"
+              name="fav_language"
+              value="HTML"
+              style={{ width: "20px" }}
+            />
+            <label for="html">Say Hi!</label>
+            <br></br>
+            <input
+              type="radio"
+              id="html"
+              name="fav_language"
+              value="HTML"
+              style={{ width: "20px" }}
+            />
+            <label for="html">Get a Qoute</label>
+            <br></br>
+          </div>
+          <div className="input-fields">
+            <span>
+              <p>Name</p>
+              <input className="input" placeholder="Name"></input>
+            </span>
+
+            <span>
+              <p>Email</p>
+              <input className="input" placeholder="Email"></input>
+            </span>
+
+            <span>
+              <p>Message</p>
+              <textarea className="textarea"></textarea>
+            </span>
+          </div>
+          <button className="btn btn--size">Send Message</button>
         </div>
         <div className="form-img">
-            <img className="contactus-img" src={contactus} alt="contactus"></img>
+          <img className="contactus-img" src={contactus} alt="contactus"></img>
         </div>
       </div>
-      
     </div>
   );
 };

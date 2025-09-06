@@ -48,14 +48,11 @@ const Testimonials = () => {
       <div className="testimonial">
         <Swiper
           modules={[Pagination, Navigation]}
-          spaceBetween={200}
+          spaceBetween={100}
           slidesPerView={3}
           centeredSlides={true}
           navigation={{ prevEl: ".prev", nextEl: ".next" }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={(swiper) => {
-            settingNextSlide(swiper.realIndex);
-          }}
+          onSlideChange={(swiper) => settingNextSlide(swiper.realIndex)}
           loop={true}
         >
           {testimonials.map((testimonial) => {

@@ -19,32 +19,59 @@ const CaseStudies = () => {
     },
   ];
   return (
-    <div className="casestudies">
-      <div className="casestudy__text">
-        <h2 className="casestudy__h2">Case Studies</h2>
-        <p className="casestudy__p">
-          Explore Real-Life Examples of Our Proven Digital Marketing Success
-          through Our Case Studies
-        </p>
-      </div>
-      <div className="casestudy__container">
-        {cases.map((caseItem,index) => (
-          <div
-            className="casestudy__items"
-            style={{ borderRight: index === cases.length-1 ? "none" : '' }}
-          >
-            <div className="casestudy__items__content">
-              <p>{caseItem.content}</p>
-            </div>
+    <>
+      <div className="casestudies">
+        <div className="casestudy__text">
+          <h2 className="casestudy__h2">Case Studies</h2>
+          <p className="casestudy__p">
+            Explore Real-Life Examples of Our Proven Digital Marketing Success
+            through Our Case Studies
+          </p>
+        </div>
+        <div className="casestudy__container">
+          {cases.map((caseItem, index) => (
+            <div
+              className="casestudy__items"
+              style={{ borderRight: index === cases.length - 1 ? "none" : "" }}
+            >
+              <div className="casestudy__items__content">
+                <p>{caseItem.content}</p>
+              </div>
 
-            <div className="casestudy__img">
-              <p>Learn more</p>
-              <img className="btn__img" src={img} alt="btn" />
+              <div className="casestudy__img">
+                <p>Learn more</p>
+                <img className="btn__img" src={img} alt="btn" />
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+      <div className="casestudies--mobile">
+        <div className="casestudy__text">
+          <h2 className="casestudy__h2">Case Studies</h2>
+          <p className="casestudy__p">
+            Explore Real-Life Examples of Our Proven Digital Marketing Success
+            through Our Case Studies
+          </p>
+        </div>
+        <div className="casestudy__container">
+          {cases.map((caseItem, index) => (
+            <div className="casestudy__items__container">
+              <div className="casestudy__items">
+                <div className="casestudy__items__content">
+                  <p>{caseItem.content}</p>
+                </div>
+
+                <div className="casestudy__img">
+                  <p>Learn more</p>
+                  <img className="btn__img" src={img} alt="btn" />
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
   );
 };
 

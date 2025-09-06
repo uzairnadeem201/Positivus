@@ -98,7 +98,17 @@ const Services = () => {
           ></img>
         </div>
       </div>
-    </div>
+      <div className="service__banner--mobile">
+        <div className="banner__text">
+          <h2 className="banner__h2">Let’s make things happen</h2>
+          <p>
+            Contact us today to learn more about how our digital marketing
+            services can help your business grow and succeed online.
+          </p>
+          <button className="btn">Get Your Free Proposal </button>
+        </div>
+        </div>
+      </div>
   );
 };
 export default Services;
